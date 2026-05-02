@@ -8,11 +8,11 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f7f5f0;
-            /* Imagen con textura simple y acorde a lo artesanal */
-            background-image: url('https://images.unsplash.com/photo-1586075010633-2475396be61f?q=80&w=1920&auto=format&fit=crop');
+            /* Nueva imagen de fondo aplicada */
+            background-image: url('https://images.pexels.com/photos/33991011/pexels-photo-33991011.jpeg');
             background-size: cover;
             background-attachment: fixed;
-            background-blend-mode: multiply;
+            background-blend-mode: overlay;
             color: #333;
             margin: 0;
             padding: 0;
@@ -206,7 +206,7 @@
             <p><strong>Un vistazo a nuestro proceso artesanal:</strong></p>
             <video controls>
                 <source src="https://videos.pexels.com/video-files/5615024/5615024-hd_1920_1080_30fps.mp4" type="video/mp4">
-                Tu navegador no soporta el video.
+                Tu navegador no soporta el video.[cite: 2]
             </video>
         </div>
 
@@ -242,16 +242,16 @@
         <div class="caja-formulario">
             <form action="#">
                 <label for="nombre">Nombre completo:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre..." required>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre..." required>[cite: 1, 6]
 
                 <label for="correo">Correo electrónico:</label>
-                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>[cite: 4, 5]
 
                 <label for="contra">Contraseña:</label>
-                <input type="password" id="contra" name="contra" required>
+                <input type="password" id="contra" name="contra" required>[cite: 1, 5]
 
                 <label for="familia">Familia olfativa:</label>
-                <select id="familia" name="familia" required>
+                <select id="familia" name="familia" required>[cite: 3, 5]
                     <option value="">-- Selecciona --</option>
                     <option>Amaderada</option>
                     <option>Cítrica</option>
@@ -261,26 +261,26 @@
 
                 <label>Concentración:</label>
                 <div class="opciones-en-linea">
-                    <input type="radio" id="conc_edp" name="concentracion" value="25" required>
+                    <input type="radio" id="conc_edp" name="concentracion" value="25" required>[cite: 4, 6]
                     <label for="conc_edp">25% (EDP)</label>
-                    <input type="radio" id="conc_extrait" name="concentracion" value="50">
+                    <input type="radio" id="conc_extrait" name="concentracion" value="50">[cite: 4, 6]
                     <label for="conc_extrait">50% (Extrait)</label>
                 </div>
 
                 <label>Aditivos:</label>
                 <div class="opciones-en-linea">
-                    <input type="checkbox" id="check_maceracion" name="aditivos" value="maceracion_extra">
+                    <input type="checkbox" id="check_maceracion" name="aditivos" value="maceracion_extra">[cite: 5, 6]
                     <label for="check_maceracion">Maceración extra</label>
-                    <input type="checkbox" id="check_filtro" name="aditivos" value="filtro_uv">
+                    <input type="checkbox" id="check_filtro" name="aditivos" value="filtro_uv">[cite: 5, 6]
                     <label for="check_filtro">Filtro UV</label>
                 </div>
 
                 <label for="notas">Notas deseadas:</label>
-                <textarea id="notas" name="notas" rows="4"></textarea>
+                <textarea id="notas" name="notas" rows="4"></textarea>[cite: 5]
 
                 <div class="botones-accion">
-                    <input type="submit" value="Enviar" class="boton-enviar">
-                    <input type="reset" value="Limpiar" class="boton-limpiar">
+                    <input type="submit" value="Enviar" class="boton-enviar">[cite: 4, 6]
+                    <input type="reset" value="Limpiar" class="boton-limpiar">[cite: 1, 6]
                 </div>
             </form>
         </div>
